@@ -2,9 +2,8 @@
   "name": "git-recover-staged",
   "version": "1.0.0",
   "description": "A git extension to recover your staged file after a hard reset: $ git reset --hard && git recover-staged",
-  "main": "index.js",
   "scripts": {
-    "recover": "node index.js"
+    "recover": "ts-node src/index.ts --esm"
   },
   "repository": {
     "type": "git",
@@ -21,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/SnakeLil/git-recover-staged/issues"
   },
-  "homepage": "https://github.com/SnakeLil/git-recover-staged#readme"
+  "homepage": "https://github.com/SnakeLil/git-recover-staged#readme",
+  "dependencies": {
+    "commander": "^13.0.0",
+    "inquirer": "^12.3.2",
+    "ts-node": "^10.9.2"
+  }
 }
