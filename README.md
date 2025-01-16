@@ -5,14 +5,14 @@ A git extension to recover your staged file after a hard reset: $ git reset --ha
 # Install
 
 ```
-npm i @lilsnake/git-recover-staged -g
+npm i git-recover-staged -g
 ```
 
 # Quick usage
 
 ```
 $ cd /path/to/your/repo
-$ npm i @lilsnake/git-recover-staged -g
+$ npm i git-recover-staged -g
 $ recover-staged
 > 1 lost file(s)/commit(s) found. Processing...
 > Done.
