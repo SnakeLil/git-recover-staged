@@ -13,7 +13,7 @@ npm i git-recover-staged -g
 ```
 $ cd /path/to/your/repo
 $ npm i git-recover-staged -g
-$ recover-staged
+$ git-recover-staged
 > 1 lost file(s)/commit(s) found. Processing...
 > Done.
 > Find recovered commits at /path/to/your/repo/GIT_RECOVERED_NOT_FOUND

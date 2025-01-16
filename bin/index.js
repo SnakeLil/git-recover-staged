@@ -22,7 +22,7 @@ function main({ outputFolderName }) {
     })
         .filter(Boolean);
     if (unreachableCommits.length === 0) {
-        console.log("No lost commit found. Hope it is the desired!");
+        console.log("No lost commit found. End.");
         return;
     }
     // create restore folder
@@ -33,7 +33,7 @@ function main({ outputFolderName }) {
     else {
         fs_1.default.mkdirSync(gitRecoverIndexRecoverPath, { recursive: true });
     }
-    console.log(`${unreachableCommits.length} lost commit(s) found. Processing...`);
+    console.log(`${unreachableCommits.length} lost file(s)/commit(s) found. Processing...`);
     recoverCommits(unreachableCommits, gitRecoverIndexRecoverPath);
     console.log("Done.");
     console.log(`Find recovered commits at ${gitRecoverIndexRecoverPath}`);
