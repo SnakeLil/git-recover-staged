@@ -1,6 +1,6 @@
 {
   "name": "git-recover-staged",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A git extension to recover your staged file after a hard reset: $ git reset --hard && git recover-staged",
   "bin": {
     "git-recover-staged": "./bin/index.js"
