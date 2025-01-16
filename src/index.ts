@@ -27,7 +27,7 @@ function main({ outputFolderName }: Answers) {
     .filter(Boolean);
 
   if (unreachableCommits.length === 0) {
-    console.log("No lost commit found. Hope it is the desired!");
+    console.log("No lost commit found. End.");
     return;
   }
   // create restore folder
@@ -39,7 +39,7 @@ function main({ outputFolderName }: Answers) {
   }
 
   console.log(
-    `${unreachableCommits.length} lost commit(s) found. Processing...`
+    `${unreachableCommits.length} lost file(s)/commit(s) found. Processing...`
   );
 
   recoverCommits(unreachableCommits, gitRecoverIndexRecoverPath);

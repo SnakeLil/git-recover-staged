@@ -1,1 +1,1 @@
-export const Default_Recover_Path = "GIT_RECOVERED";
+export const Default_Recover_Path = "GIT_RECOVERED_NOT_FOUND";
