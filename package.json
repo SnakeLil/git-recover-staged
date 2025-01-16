@@ -7,7 +7,7 @@
   },
   "scripts": {
     "recover": "ts-node src/index.ts --esm",
-    "build": "tsc"
+    "build": "tsc && node add-shebang.js"
   },
   "repository": {
     "type": "git",
