@@ -18,7 +18,6 @@ function main({ outputFolderName }) {
         .split("\n")
         .map((line) => {
         const id = line.trim().split(" ")[2];
-        console.log(id, "id");
         return id;
     })
         .filter(Boolean);
