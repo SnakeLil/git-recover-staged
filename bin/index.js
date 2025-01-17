@@ -49,7 +49,6 @@ function recoverCommits(commits, recoverPath) {
                 const dataStrPrefix = data.toString().slice(0, 4);
                 if (dataStrPrefix !== "tree") {
                     fileStream.write(data);
-                    console.log("write data");
                 }
             }
         });

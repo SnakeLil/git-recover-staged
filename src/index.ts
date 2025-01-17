@@ -21,7 +21,6 @@ function main({ outputFolderName }: Answers) {
     .split("\n")
     .map((line) => {
       const id = line.trim().split(" ")[2];
-      console.log(id, "id");
       return id;
     })
     .filter(Boolean);
@@ -57,7 +56,6 @@ function recoverCommits(commits: string[], recoverPath: string) {
         const dataStrPrefix = data.toString().slice(0, 4);
         if (dataStrPrefix !== "tree") {
           fileStream.write(data);
-          console.log("write data");
         }
       }
     });
