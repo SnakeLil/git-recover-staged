@@ -20,7 +20,7 @@
     "recover-staged"
   ],
   "author": "lilsnake",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/SnakeLil/git-recover-staged/issues"
   },
