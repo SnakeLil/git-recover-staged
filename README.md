@@ -19,7 +19,12 @@ $ git-recover-staged
 > Find recovered commits at /path/to/your/repo/GIT_RECOVERED_NOT_FOUND
 ```
 
-You can now view your files in the ./GIT_RECOVERED_NOT_FOUND directory. Please note that this process does not recover the file names
+You can now view your files in the ./GIT_RECOVERED_NOT_FOUND directory. Please note that this process does not recover the file names.
+
+If you encounter any issues while using this project, please feel free to open an issue, and I will address it as soon as possible. 
+If you find this project helpful, consider giving it a star. 
+I'm not sure how useful it is, but I will continuously improving it. Thanks！！
 
 ![20250117105152](https://github.com/user-attachments/assets/2d330843-33d2-444b-9440-1219cb1095ac)
+
 
